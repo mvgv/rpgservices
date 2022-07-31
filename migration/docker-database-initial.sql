@@ -1,10 +1,10 @@
-create table personalidades(
+create table personagems(
     id serial primary key,
     nome varchar,
     classe varchar
 );
 
-INSERT INTO personalidades(nome, classe) VALUES
+INSERT INTO personagems(nome, classe) VALUES
 ('Tragdush', 'Barbaro'),
 ('Salazar', 'Mago'),
 ('Faustus', 'Bruxo'),
