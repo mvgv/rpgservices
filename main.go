@@ -10,8 +10,8 @@ import (
 func main() {
 	fmt.Println("Iniciando o go")
 	models.Personagens = []models.Personagem{
-		{Nome: "Tragdush", Classe: "Bárbaro"},
-		{Nome: "Salazar", Classe: "Mago"},
+		{Id: 1, Nome: "Tragdush", Classe: "Bárbaro"},
+		{Id: 2, Nome: "Salazar", Classe: "Mago"},
 	}
 	routes.HandleRequest()
 }
